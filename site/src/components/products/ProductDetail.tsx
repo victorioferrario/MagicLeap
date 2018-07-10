@@ -77,12 +77,12 @@ export class ProductDetail extends React.Component <IProps,{}> {
            <React.Fragment>
                <Table>             
                     <TableBody>                        
-                            {this.buildTechTableRow("Armament", value.armament)}
-                            {this.buildTechTableRow("Communications", value.communications)}
-                            {this.buildTechTableRow("Hull", value.hull)}
-                            {this.buildTechTableRow("Ship Length", value.length)}
-                            {this.buildTechTableRow("Max Acceleration", value.maxaccel)}                            
-                            {this.buildTechTableRow("Max Atmospheric Speed", value.maxatmosphericspeed)}{this.buildTechTableRow("MGLT", value.MGLT)}{this.buildTechTableRow("Sensor", value.sensor)}{this.buildTechTableRow("Shielding", value.shielding)} {this.buildTechTableRow("Targeting", value.targeting)}                        
+                        {this.buildTechTableRow("Armament", value.armament)}
+                        {this.buildTechTableRow("Communications", value.communications)}
+                        {this.buildTechTableRow("Hull", value.hull)}
+                        {this.buildTechTableRow("Ship Length", value.length)}
+                        {this.buildTechTableRow("Max Acceleration", value.maxaccel)}                            
+                        {this.buildTechTableRow("Max Atmospheric Speed", value.maxatmosphericspeed)}{this.buildTechTableRow("MGLT", value.MGLT)}{this.buildTechTableRow("Sensor", value.sensor)}{this.buildTechTableRow("Shielding", value.shielding)} {this.buildTechTableRow("Targeting", value.targeting)}                        
                     </TableBody>
                 </Table>           
             </React.Fragment>);

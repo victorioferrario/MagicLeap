@@ -6,10 +6,10 @@ import IconButton from "@material-ui/core/IconButton";
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
+
 import MenuIcon from "@material-ui/icons/Menu";
 
 import { HomePage, NoMatch, Products} from "../components/";
-
 import { IPropsMenuListControl, MenuListControl } from "../components/shared/MenuListControl";
 
 export interface IState {
@@ -51,8 +51,7 @@ export class Layout extends React.Component <{}, IState> {
         this.setState({
             left: open
         });
-    }
-    
+    }    
     private buildAppBar(){
         return (
         <React.Fragment>
@@ -99,10 +98,9 @@ export class Layout extends React.Component <{}, IState> {
             <div tabIndex={0} role="button">
                 <MenuListControl {...childProps} />
             </div>
-        </SwipeableDrawer>)
+        </SwipeableDrawer>);
     }
 }
-
 export default Layout;
 
 
