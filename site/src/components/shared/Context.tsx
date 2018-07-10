@@ -70,12 +70,3 @@ export class DataProvider extends React.Component {
     return videoList;   
   }
 }
-
-// <iframe width="560" height="315" src="https://www.youtube.com/embed/APED4rd8B7o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hI3kWYjLwwE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VP-jKr2vKx4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/94VSGBSUaCc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PDYv0ga1uaU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BV0152Sexqc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZU1czGj2i8o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-// <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2ZjNdwugDb4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

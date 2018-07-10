@@ -25,6 +25,8 @@ export interface IStateMenuListControl {
 
 export const LinkHome = (props: any) => <NavLink to="/" {...props} />
 export const LinkProducts = (props: any) => <NavLink to="/products" {...props} />
+// export const LinkHome = (props: any) => <NavLink to="/work/magicleap/site/" {...props} />
+// export const LinkProducts = (props: any) => <NavLink to="/work/magicleap/site/products" {...props} />
 export interface IPropsMenuControl {
     onHandleClick: () => void;
 }

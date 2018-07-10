@@ -1,4 +1,8 @@
-# MagicLeap
+# Magic Leap Front End Assignment
+
+## Create-React-App-Typescript
+
+This project was bootstrapped with [Create React App Typescript]](https://github.com/wmonk/create-react-app-typescript).
 
 ## Available Scripts
 

@@ -14,41 +14,10 @@ import Typography from '@material-ui/core/Typography';
 
 import Grid from '@material-ui/core/Grid';
 
+ // export const ProductsLink  = (props: any) => <NavLink to="/work/magicleap/site/products" {...props} />
  export const ProductsLink  = (props: any) => <NavLink to="/products" {...props} />
-
- import image1 from "../media/home1.png";
- import image2 from "../media/home2.png";
  import image3 from "../media/home3.png";
 export class HomePage extends React.Component {
-    public render2(){
-        return (
-            <React.Fragment>
-
-                <div style={{ flexGrow: 1,  padding: 20 }}>
-                    <Slide direction="left" in={true}>    
-                        <h2 style={{marginBottom:0}}>Welcome</h2> 
-                    </Slide>
-                   
-                    <Fade in={true}>
-
-                                   
-                    <p>
-                        
-                                                Welcome to Watto’s Spaceship Emporium!  <br />The best inventory selection across the galaxy...
-                    <br />
-                   
-                    <br />
-                            <Button size="large" color="primary" variant="contained" component={ProductsLink }>View Inventory</Button>
-                            <img src={image1} style={{width:'100%'}} />
-                            <img src={image2} style={{width:'100%'}} />
-                            <img src={image3} style={{width:'100%'}} />
-                    </p>
-                   
-                    </Fade>                      
-                </div>
-            </React.Fragment>
-        );
-    }
     public render(){
         return (
             <div style={{ flexGrow: 1,  padding: 20 }}>
@@ -74,7 +43,7 @@ export class HomePage extends React.Component {
                             </Typography>
                         </CardContent>
                         <CardActions style={{ paddingRight:20,}}>                   
-                            <Button size="large" color="primary" variant="contained"  component={ProductsLink }
+                            <Button size="large" color="primary" variant="contained" component={ProductsLink }
                             style={{ marginBottom:15, marginLeft: 'auto',}}  >
                                 View Inventory</Button><br />
                         </CardActions>
