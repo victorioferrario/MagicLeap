@@ -1,5 +1,7 @@
 # Magic Leap Front End Assignment
 
+[Live Demo](http://www.manuelferrario.com/work/magicleap/site/){:target="_blank"}
+
 ## Create-React-App-Typescript
 
 This project was bootstrapped with [Create React App Typescript]](https://github.com/wmonk/create-react-app-typescript).
