@@ -1,6 +1,6 @@
 # Magic Leap Front End Assignment
 
-[Live Demo](http://www.manuelferrario.com/work/magicleap/site/){:target="_blank"}
+[Live Demo](http://www.manuelferrario.com/work/magicleap/site/)
 
 ## Create-React-App-Typescript
 
